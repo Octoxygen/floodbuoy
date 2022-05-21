@@ -1,0 +1,32 @@
+.content {
+    width: vmax;
+    padding-left: 400px;
+    background-color: #f5f5f6;
+    text-align: center;
+}
+
+.content h1{
+    background: green;
+    font-family: 'Lato';
+}
+
+.upper-panel-content {
+    width: vmax;
+    height: 40px;
+    background: #9EB4EF;
+    position: top;
+}
+
+.block{
+    border: 1px red;
+    border-style: solid;
+    display: wrap;
+    width: vmax;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.block text{
+    font-family: 'Lato';
+    width: 60%;
+}

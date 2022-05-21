@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-style: none;
+}
+
+body {
+    background: white;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: aqua;
+    background-image: url('./resources/bg_side.png');
+}
+
+.upper-panel {
+    width: 400px;
+    height: 40px;
+
+    background: #354CAA;
+}
+
+.logo {
+    background-image: url('./resources/sidebar-logo.png');
+}
+
+.user {
+    height: 100px;
+
+    background: rgb(111, 150, 209, 0.6);
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    color: #FFFFFF;
+    
+    display:flex;
+    padding-left: 57px;
+    padding-top: 12px;
+}
+
+.user p{
+    padding-top: 24px;
+    padding-left: 18px;
+}
+
+div.group1{
+    padding-top: 32px;
+}
+
+.nav-button {
+    width: 400px;
+    height: 45px;
+    
+    background: rgba(111, 150, 209, 0.0);
+    border-radius: 5px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: left;
+    padding-left: 66px;
+
+    color: #FFFFFF;
+
+    display: flex;
+}
+
+.nav-button p{
+    padding-left: 23px;
+}
+
+.nav-button:hover{
+    background-color: rgb(111, 150, 209, 0.6);
+    color: #EDC56C;
+}
+
+button.active{
+    background-color: rgb(111, 150, 209, 0.6);
+    color: #EDC56C;
+}
+
+.div-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    background: rgba(111, 150, 209, 0.0);
+    padding-top: 16;
+    padding-left: 20;
+}
+
+.solid{
+    width: 360px;
+    height: 1px;
+    background-color: #6F96D1;
+}
+
+.premium-button{
+    width: 320px;
+    height: 80px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3748;
+
+    text-align: left;
+    display: flex;
+
+    padding-top: 23px;
+    padding-left: 32px;
+}
+
+.div-premium {
+    padding-top: 28px;
+    padding-left: 40px;
+}
+
+.premium-button p{
+    padding-top: 7px;
+    padding-left: 14px;
+}
+
+.div-download {
+    padding-top: 27px;
+    padding-left: 100px;
+}
+
+.download-button {
+    width: 200px;
+    height: 50px;
+
+    background: #4B4DF7;
+    border-radius: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.div-settings {
+    padding-top: 90px;
+}
+
+.settings-button {
+    width: 400px;
+    height: 45px;
+    
+    background: rgba(111, 150, 209, 0);
+    border-radius: 5px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    align-items: center;
+    text-align: left;
+    padding-left: 66px;
+
+    color: #FFFFFF;
+
+    display: flex;
+}
+
+.settings-button p{
+    padding-left: 23px;
+}
+
+.settings-button:hover{
+    background-color: #6F96D1;
+    color: #EDC56C;
+}
+
+
+.content {
+    width: 100vmax;
+    padding-left: 400px;
+}

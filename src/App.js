@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import logo from './components/resources/sidebar-logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1>Test</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className='App-logo-2'>
+          Hello!
         </p>
         <a
           className="App-link"
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <button className="Button-download">DOWNLOAD APP</button>
+        
       </header>
     </div>
   );
